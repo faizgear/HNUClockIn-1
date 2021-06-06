@@ -59,7 +59,7 @@ HNUClockIn
 
 1. 在你打算存放本项目的地方，右键选择`Git Bash Here`
 
-2. 输入`git clone https://github.com/Brokenice0415/HNUClockIn`
+2. 输入`git clone https://github.com/Brokenice0415/HNUClockIn.git`
 
 ### 2. 注册百度智能账号，获取api
 
@@ -136,15 +136,29 @@ HNUClockIn
    > python main.py
    > ```
 
-### 5. Publish本地仓库到Github
+### 5. Push本地仓库到Github
 
-不熟悉Git指令的可以使用[Git Desktop](https://desktop.github.com/)
+首先在你的网页版Github的Repository中点击New，创建一个**私有**（private）的空仓库
 
-打开后点击`File->Add local repository`将刚刚clone的仓库添加到你的仓库
+**私有！私有！私有！**
 
-**记得设置仓库私有(private)** ~~(默认私有)~~
+在本地文件夹中打开bash，依次输入如下指令
 
-然后点击右上角`Publish`，直到显示`Fetch origin`即发布完毕
+```shell
+# 移除远端连接
+git remote rm origin
+
+# 建立到你的空仓库X的连接
+git remote add origin "你的仓库链接"
+
+# 更新源端代码到本地，这里测试远端连接是否成功，若执行后没有任何提示则连接成功
+git fetch origin
+
+# 上传本地代码到远端仓库main分支
+git push -u origin main:main
+```
+
+至此代码文件成功全部上传至你的仓库
 
 ### 6. 添加Action
 
