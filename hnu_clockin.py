@@ -59,8 +59,12 @@ class hnu_clockin():
 				"RealCounty": "岳麓区",
 				"RealAddress": inform.clockin_inform["在校详细地址"],
 				"BackState": 1,
-				"MorningTemp": "36." + str(random.randint(5,9)),
-				"NightTemp": "36." + str(random.randint(5,9)),
+				#--------------#
+				# Modified 7/6 2021 
+				# 每日打卡不需要输入体温
+				#--------------#
+				#"MorningTemp": "36." + str(random.randint(5,9)),
+				#"NightTemp": "36." + str(random.randint(5,9)),
 				"tripinfolist": []
 			}
 
