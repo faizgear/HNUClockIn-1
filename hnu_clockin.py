@@ -60,11 +60,12 @@ class hnu_clockin():
 				"RealAddress": inform.clockin_inform["在校详细地址"],
 				"BackState": 1,
 				#--------------#
-				# Modified 7/6 2021 
+				# Modified 7/9 2021 
 				# 每日打卡不需要输入体温
 				#--------------#
-				#"MorningTemp": "36." + str(random.randint(5,9)),
-				#"NightTemp": "36." + str(random.randint(5,9)),
+				"Temperature": "36.5",
+				"MorningTemp": "36.5",
+				"NightTemp": "36.5",
 				"tripinfolist": []
 			}
 
