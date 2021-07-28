@@ -1,18 +1,18 @@
 {
   "hnu_account": {
-    "id": "学号",
-    "password": "个人门户密码"
+    "id": "201702050102",
+    "password": "ZhongGuo730"
   },
   "baidu_ai_account": {
-    "app_id": "",
-    "api_key": "",
-    "secret_key": ""
+    "app_id": "24617811",
+    "api_key": "0aRc6nSlLj2Uq2twCqma5Mec",
+    "secret_key": "qvncI9BjlV1MV0hO9GlKakrEXMaHg0f6"
   },
   "clockin_inform": {
-    "省": "",
-    "市": "",
-    "县": "",
-    "在家详细地址": "",
-    "在校详细地址": ""
+    "省": "北京",
+    "市": "北京",
+    "县": "通州",
+    "在家详细地址": "九棵树街道",
+    "在校详细地址": "橘子洲街道"
   }
 }
