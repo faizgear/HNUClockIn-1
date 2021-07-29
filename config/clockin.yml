@@ -25,4 +25,4 @@ jobs:
       - name: Run main.py
         run: |
           python config/config.py
-          python main.py --at_home 0
+          python main.py --at_home 1
